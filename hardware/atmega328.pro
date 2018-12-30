@@ -1,4 +1,4 @@
-update=2018-12-30 18:16:30
+update=2018-12-30 23:23:04
 last_client=kicad
 [general]
 version=1
@@ -18,12 +18,13 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.5
+TrackWidth1=0.7
 TrackWidth2=0.254
 TrackWidth3=0.508
 TrackWidth4=1.016
 TrackWidth5=2.032
-TrackWidth6=3.048
+TrackWidth6=3
+TrackWidth7=3.048
 ViaDiameter1=1.2
 ViaDrill1=0.6
 dPairWidth1=0.2
@@ -56,8 +57,8 @@ SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=DC POWER
-Clearance=0.5
-TrackWidth=0.8
+Clearance=0.8
+TrackWidth=1
 ViaDiameter=1.6
 ViaDrill=0.8
 uViaDiameter=0.3

@@ -1,4 +1,4 @@
-15319104571410479
+15334409806842479
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -47200,6 +47200,20 @@ solder jumper open
 0
 5
 3
+kicad_libraries
+KF301-2P-5.0
+Terminal block, 2 pole, pitch 5 mm
+
+0
+2
+2
+kicad_libraries
+KF2510-A-5P-M-TH-V
+
+
+0
+5
+5
 LED_SMD
 LED-L1T2_LUMILEDS
 http://www.lumileds.com/uploads/438/DS133-pdf
@@ -49006,6 +49020,62 @@ mounting hole 8.4mm m8
 0
 9
 1
+mysensors_radios
+NRF24L01
+NRF24L01
+nRF 24 NRF24L01 NRF24L01+
+0
+8
+8
+mysensors_radios
+NRF24L01-SMD
+
+
+0
+8
+8
+mysensors_radios
+NRF24L01_PA_LNA-SMD
+
+
+0
+8
+8
+mysensors_radios
+RFM69HW_SMD
+RFM69HW
+RFM69HW, RF69
+0
+16
+16
+mysensors_radios
+RFM69HW_SMD_Handsoldering
+RFM69HW
+RFM69HW, RF69
+0
+16
+16
+mysensors_radios
+RFM69HW_SMD_ThroughHole
+RFM69HW
+RFM69HW, RF69
+0
+32
+16
+mysensors_radios
+RFM69HW_SMD_ThroughHole_Handsoldering
+RFM69HW
+RFM69HW, RF69
+0
+32
+16
+mysensors_radios
+RFM69HW_ThroughHole
+RFM69HW
+RFM69HW, RF69
+0
+16
+16
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

@@ -1,4 +1,4 @@
-update=wto, 1 sty 2019, 16:25:29
+update=pią, 4 sty 2019, 11:58:07
 last_client=kicad
 [general]
 version=1
@@ -24,7 +24,7 @@ TrackWidth3=0.508
 TrackWidth4=0.7
 TrackWidth5=1.016
 TrackWidth6=2.032
-TrackWidth7=3
+TrackWidth7=2.5
 TrackWidth8=3.048
 ViaDiameter1=1.2
 ViaDrill1=0.6
@@ -70,7 +70,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=POWER 220
 Clearance=1
-TrackWidth=3
+TrackWidth=2.5
 ViaDiameter=1.6
 ViaDrill=0.8
 uViaDiameter=0.3

@@ -1,3 +1,5 @@
 hardware/*.csv
 hardware/*.ods
 hardware/*.xml
+sources/
+

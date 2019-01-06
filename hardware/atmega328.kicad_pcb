@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-dffa399~84~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-fb35a7c~84~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -18,8 +18,8 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -1820,9 +1820,14 @@
       (rotate (xyz 0 0 0))
     )
     (model ${KISYS3DMOD}/3D/Relays/SRD-xxVDC-SL-C.wrl
-      (offset (xyz 8.300000000000001 0 0))
+      (offset (xyz 8.300000000000001 0 -0.1))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
+    )
+    (model "${MY_3DMOD_DIR}/OMRON G5LE Series.stp"
+      (offset (xyz 9 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 

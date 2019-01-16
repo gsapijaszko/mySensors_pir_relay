@@ -1,4 +1,4 @@
-15355149698586479
+15440297275066436
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -47201,6 +47201,20 @@ solder jumper open
 5
 3
 kicad_libraries
+Conn_uSDcard
+
+
+0
+13
+9
+kicad_libraries
+GCT-MEM2055-00-190-01-A
+http://www.farnell.com/datasheets/1917242.pdf
+MicroSD card socket
+0
+13
+11
+kicad_libraries
 KF301-2P-5.0
 Terminal block, 2 pole, pitch 5 mm
 
@@ -47214,6 +47228,20 @@ KF2510-A-5P-M-TH-V
 0
 5
 5
+kicad_libraries
+MicroSD_TF02D
+
+
+0
+12
+10
+kicad_libraries
+SW_06_SMD
+
+
+0
+4
+2
 LED_SMD
 LED-L1T2_LUMILEDS
 http://www.lumileds.com/uploads/438/DS133-pdf
@@ -49027,6 +49055,321 @@ mounting hole 8.4mm m8
 0
 9
 1
+mysensors_arduino
+pro_mini
+IC, ARDUINO_PRO_MINI x 0,6"
+DIL ARDUINO PRO MINI
+0
+31
+29
+mysensors_buttons
+SW_SPST_FSM2JS
+TE Connectivity SPST SMD FSM2JSM Series 6mm Tact Switch
+SPST Button Switch
+0
+4
+2
+mysensors_buttons
+SW_SPST_SMD_J-LEAD_4.3MM
+TE Connectivity SPST SMD J-LEAD,4.3MM
+SPST Button Switch
+0
+2
+2
+mysensors_connectors
+Cortex_M_Debug_Connector
+
+
+0
+9
+9
+mysensors_connectors
+CR123_holder
+CR123 battery holder
+Battery holder, CR123
+0
+2
+2
+mysensors_connectors
+dc_socket-kcswalter
+Socket, DC power supply
+
+0
+3
+3
+mysensors_connectors
+FCI_10P_HDR
+
+0.05" 
+0
+10
+10
+mysensors_connectors
+keystone_3009-kcswalter
+Keystone type 3009 coin cell retainer
+
+0
+3
+2
+mysensors_connectors
+Micro_USB
+
+
+0
+9
+9
+mysensors_connectors
+MM027S020R
+
+SD Card connector litkconn
+0
+13
+10
+mysensors_connectors
+MYSX_1.0
+Through hole pin header
+pin header MYSX 1.0
+0
+8
+8
+mysensors_connectors
+MYSX_1.1
+Through hole pin header
+pin header MYSX 1.1
+0
+10
+10
+mysensors_connectors
+MYSX_1.2
+Through hole pin header
+pin header MYSX 1.2
+0
+12
+12
+mysensors_connectors
+MYSX_1.3
+Through hole pin header
+pin header MYSX 1.3
+0
+14
+14
+mysensors_connectors
+MYSX_1.4
+Through hole pin header
+pin header MYSX 1.4
+0
+16
+16
+mysensors_connectors
+MYSX_1.5
+Through hole pin header
+pin header MYSX 1.5
+0
+20
+20
+mysensors_connectors
+MYSX_2.0
+Through hole pin header
+pin header MYSX 2.0
+0
+8
+8
+mysensors_connectors
+MYSX_2.0_SOCKET
+Through hole pin socket
+pin socket MYSX 2.0 daughter
+0
+8
+8
+mysensors_connectors
+MYSX_2.1
+Through hole pin header
+pin header MYSX 2.1
+0
+10
+10
+mysensors_connectors
+MYSX_2.1_SOCKET
+Through hole pin socket
+pin socket MYSX 2.1 SOCKET
+0
+10
+10
+mysensors_connectors
+MYSX_2.2
+Through hole pin header
+pin header MYSX 2.2
+0
+12
+12
+mysensors_connectors
+MYSX_2.2_SOCKET
+Through hole pin socket
+pin socket MYSX 2.2 SOCKET
+0
+12
+12
+mysensors_connectors
+MYSX_2.3
+Through hole pin header
+pin header MYSX 2.3
+0
+14
+14
+mysensors_connectors
+MYSX_2.3_SOCKET
+Through hole pin socket
+pin socket MYSX 2.3 SOCKET
+0
+14
+14
+mysensors_connectors
+MYSX_2.4
+Through hole pin header
+pin header MYSX 2.4
+0
+16
+16
+mysensors_connectors
+MYSX_2.4_SOCKET
+Through hole pin socket
+pin socket MYSX 2.4 SOCKET
+0
+16
+16
+mysensors_connectors
+MYSX_2.5
+Through hole pin header
+pin header MYSX 2.5
+0
+20
+20
+mysensors_connectors
+MYSX_2.5_SOCKET
+Through hole pin socket
+pin socket MYSX 2.5 SOCKET
+0
+20
+20
+mysensors_connectors
+MYSX_2.6
+Through hole pin header
+pin header MYSX 2.6
+0
+22
+22
+mysensors_connectors
+MYSX_2.6_SOCKET
+Through hole pin socket
+pin socket MYSX 2.6 SOCKET
+0
+22
+22
+mysensors_connectors
+s2b-ph-kl-kcswalter
+JST PH series connector, S2B-PH-KL
+
+0
+2
+2
+mysensors_connectors
+TerminalBlock2.54mmx2-kcswalter
+2-way 2.54mm pitch terminal block, Phoenix MPT series
+
+0
+2
+2
+mysensors_handsoldering
+SOT-23-5_Handsoldering
+5-pin SOT23 package handsoldering
+SOT-23-5
+0
+5
+5
+mysensors_leds
+LED-5MM-Horizontal
+LED horizontal 5mm
+LED-5MM LED 5mm
+0
+2
+2
+mysensors_leds
+WS2812B
+
+
+0
+4
+4
+mysensors_leds
+WS2812B_data-bridgeable
+
+
+0
+12
+4
+mysensors_network
+ESP8266-1
+ESP8266-1
+socket strip
+0
+8
+8
+mysensors_network
+W5100
+Through hole socket strip
+socket strip
+0
+10
+10
+mysensors_obscurities
+2_pin_solder_jumper_smd
+
+
+0
+2
+2
+mysensors_obscurities
+3_pin_solder_jumper_smd
+
+
+0
+3
+3
+mysensors_obscurities
+d-pak-kcswalter
+D-pak
+
+0
+3
+3
+mysensors_obscurities
+MySensors-logo-sticker
+
+
+0
+0
+0
+mysensors_obscurities
+MySensors-logo-sticker-large
+
+
+0
+0
+0
+mysensors_obscurities
+via-0.6mm
+
+0.3mm drill
+0
+1
+1
+mysensors_obscurities
+XTAL_3.2x1.5mm
+XTAL 3.2 x 1.5mm footprint
+Xtal
+0
+2
+2
 mysensors_radios
 NRF24L01
 NRF24L01
@@ -49167,6 +49510,55 @@ net tie
 0
 4
 4
+OLIMEX_Regulators-FP
+ACDC_220V-5V-0.7A
+
+
+0
+10
+5
+OLIMEX_Regulators-FP
+SIP-7
+http://www.aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM1D-N-Z.pdf
+
+0
+6
+6
+OLIMEX_Regulators-FP
+SIP-7_Universal
+http://www.aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM1D-N-Z.pdf
+
+0
+6
+6
+OLIMEX_Regulators-FP
+SOT-23-5
+
+
+0
+5
+5
+OLIMEX_Regulators-FP
+SOT-223-5_Pitch-1.27_6.50x7.00x1.80
+http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf
+SOT-223-5
+0
+6
+6
+OLIMEX_Regulators-FP
+SOT23-6
+ROTATED COUNTERCLOCKWISE 90 BY PENKO TO BA AS IS IN THE REAL REEL
+ROTATED COUNTERCLOCKWISE 90 BY PENKO TO BA AS IS IN THE REAL REEL
+0
+6
+6
+OLIMEX_Regulators-FP
+SOT223
+ROTATED BY PENKO 90 DEGREE CCW TO BA AS IS IN THE REAL REEL.
+ROTATED BY PENKO 90 DEGREE CCW TO BA AS IS IN THE REAL REEL.
+0
+4
+3
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800

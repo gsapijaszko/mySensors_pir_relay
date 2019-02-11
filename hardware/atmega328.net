@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/sapi/projekty/mySensors_pir_relay/hardware/atmega328.sch)
-    (date "pią, 18 sty 2019, 23:37:05")
-    (tool "Eeschema 6.0.0-rc1-unknown-419718b~84~ubuntu16.04.1")
+    (date "pon, 11 lut 2019, 18:22:06")
+    (tool "Eeschema 5.1.0-rc1-unknown-5e318dc~84~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "mySensors PIR/BH1750 relay")
@@ -38,7 +38,7 @@
       (tstamp 5C0E9CBE))
     (comp (ref C8)
       (value 47uF)
-      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.50mm)
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm)
       (datasheet ~)
       (libsource (lib Device) (part CP) (description "Polarized capacitor"))
       (sheetpath (names /) (tstamps /))
@@ -226,7 +226,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C27AED5))
     (comp (ref R4)
-      (value 470)
+      (value 330)
       (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))

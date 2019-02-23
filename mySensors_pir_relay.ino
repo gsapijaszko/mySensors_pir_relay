@@ -8,8 +8,8 @@ Connection:
  SDA-SDA(analog pin 4)
  ADD-NC or GND
 
-Motion sensor PIR connected to DIGITAL PIN 3
-Relay connected to PIN 5
+Motion sensor PIR connected PIN PD3
+Relay connected to PIN PD5
 
 */
 
@@ -30,14 +30,9 @@ Relay connected to PIN 5
 #define MY_DEFAULT_RX_LED_PIN  6  // Receive led pin
 #define MY_DEFAULT_TX_LED_PIN  7  // Tx led pin
 
-
-
-
-
 #define MY_NODE_ID 222
 //#define MY_PARENT_NODE_ID 0
 //#define MY_PARENT_NODE_IS_STATIC
-
 
 #include <MySensors.h>
 #include <Wire.h>

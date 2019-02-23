@@ -20,15 +20,21 @@ Relay connected to PIN 5
 #define MY_RADIO_RF24
 #define MY_RF24_PA_LEVEL RF24_PA_HIGH
 
-/// UWAGA, INNY KANAŁ I PRĘDKOŚĆ
-///
-// #define MY_RF24_CHANNEL 79
-// #define MY_RF24_DATARATE RF24_1MBPS
-///
-
 #define MY_REPEATER_FEATURE
 
-#define MY_NODE_ID 241
+// Set blinking period
+#define MY_DEFAULT_LED_BLINK_PERIOD 300
+
+// Flash leds on rx/tx/err
+#define MY_DEFAULT_ERR_LED_PIN 4  // Error led pin
+#define MY_DEFAULT_RX_LED_PIN  6  // Receive led pin
+#define MY_DEFAULT_TX_LED_PIN  7  // Tx led pin
+
+
+
+
+
+#define MY_NODE_ID 222
 //#define MY_PARENT_NODE_ID 0
 //#define MY_PARENT_NODE_IS_STATIC
 
@@ -148,7 +154,8 @@ void check_motion( uint8_t t_pin, uint8_t t_id ){
   
 void lights_on(){
   if ( isLightOn == 0 ){
-    digitalWrite(PIN_S_LIGHT_IN, 0);
+//    digitalWrite(PIN_S_LIGHT_IN, 0); // in case of relay module with inverted logic
+      digitalWrite(PIN_S_LIGHT_IN, 1);
     send(msg_S_RELAY.setSensor(RELAY_CHILD_ID).set(1));
     isLightOn = 1;
   }
@@ -158,7 +165,9 @@ void lights_on(){
 void lights_off(){
   if ( isLightOn == 1 ){
     isLightOn = 0;
-    digitalWrite(PIN_S_LIGHT_IN, 1);
+//    digitalWrite(PIN_S_LIGHT_IN, 1); // in case of relay module with inverted logic
+    digitalWrite(PIN_S_LIGHT_IN, 0);
+
     send(msg_S_RELAY.setSensor(RELAY_CHILD_ID).set(0));
   }
 }
